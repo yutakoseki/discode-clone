@@ -13,7 +13,7 @@ function Sidebar() {
         {/* sidebarLeft */}
         <div className='sidebarLeft'>
             <div className='serverIcon'>
-                <img src="./logo192.png" alt="" />
+                <img src="./discordIcon.png" alt="" />
             </div>
             <div className='serverIcon'>
                 <img src="./logo192.png" alt="" />
@@ -44,8 +44,10 @@ function Sidebar() {
             <div className="sidebarFooter">
                 <div className="sidebarAccount">
                     <img src="./icon.png" alt="" />
-                    <h4>ShinCode</h4>
-                    <span>#8162</span>
+                    <div className="accountName">
+                        <h4>ShinCode</h4>
+                        <span>#8162</span>
+                    </div>
                 </div>
 
                 <div className="sidebarVoice">
