@@ -7,6 +7,10 @@ import SearchIcon from '@mui/icons-material/Search';
 import SendIcon from '@mui/icons-material/Send';
 import HelpIcon from '@mui/icons-material/Help';
 
+type Props = {
+    channelName: string;
+}
+
 function ChatHeader() {
   return (
     <div className='chatHeader'>

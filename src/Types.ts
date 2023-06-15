@@ -1,3 +1,5 @@
+import { channel } from "diagnostics_channel";
+
 export interface InitialUserState {
     user: null | {
         uid: string;
@@ -5,4 +7,9 @@ export interface InitialUserState {
         email: string;
         displayName: string;
     }
+}
+
+export interface InitialChannelState {
+    channelId: string | null;
+    channelName: string | null;
 }
